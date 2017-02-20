@@ -1,5 +1,9 @@
 ## Write a short comment describing this function
 
+## Make cache matrix function 
+## 1 initialize matrix
+## 2 set parameters for matrix
+## 3 returns matrix
 makeCacheMatrix <- function(x = matrix()) {
   inver <- NULL
   set <- function(y) {
@@ -14,6 +18,11 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
+    
+### cacheSolve function
+    ## 1 check if inverse is already computed
+    ## if yes: return computed inverse
+    ## else: compute inverse, set as computed and return
 
 cacheSolve <- function(x, ...) {
   inver <- x$getinverse()
